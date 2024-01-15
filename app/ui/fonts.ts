@@ -1,0 +1,10 @@
+import {Inter, Noto_Sans_Mono, Lusitana} from 'next/font/google'
+
+export const inter = Inter({ subsets: ['latin']});
+
+export const noto_Sans_Mono = Noto_Sans_Mono({ subsets: ['latin']})
+
+export const lusitana = Lusitana({
+    weight: ['400', '700'],
+    subsets: ['latin'],
+  });
